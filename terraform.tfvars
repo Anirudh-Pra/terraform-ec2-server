@@ -9,7 +9,7 @@ ami_id              = "ami-05fd593d8c7e89cc7" #Replace with your AMI ID
 instance_type       = "t2.micro"
 instance_name       = "HealyEC2Instance"
 key_name            = "test-key" # Replace with your key pair name if applicable
-trusted_ip_address  = "99.96.116.235/32" # Replace with your ip
+trusted_ip_address  = "192.168.1.123/32" # Replace with your ip
 # Tags can be customized as needed
 tags = {
   Name        = "HealyEC2Instance"
